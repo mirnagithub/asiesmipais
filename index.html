@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Nicatour RIDEL</title>
+<style>
+	*{
+		box-sizing: border-box;
+		
+	}
+	body{
+		font-size: 16px;
+		font-family: arial,helvetica,sans-serif;
+		line-height: 1.4em;
+	}
+	.contenedor {
+		width: 980px;
+		margin: 0 auto;
+	}
+	.encabezado {
+		background: #2c2c2c;
+		overflow: hidden;
+		box-shadow: 0 0 20px #070707;
+		position: relative;
+		
+	}
+	.logotipo {
+		float: left;
+		position: relative;
+		top: 7px;
+	}
+	.encabezado nav {
+		float: right;
+	}
+	.encabezado nav ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		
+	}
+	.encabezado nav ul li {
+		display: inline-block;
+		margin-right: -4px;
+		
+	}
+	.encabezado nav ul li a {
+		display: block;
+		color: #fff;
+		padding: 28px;
+		border-left: 1px solid #696969;
+		text-decoration: none;
+	}
+	.encabezado nav ul li a:hover {
+		background: #575757; 
+		
+	}
+	.presentacion {
+		background: radial-gradient(280px at 25% 10%, #A3D4FF, #0460ad);
+		-pie-background: linear-gradient (150deg, #A3D4FF, #0460ad);
+		border-bottom: 3px solid #044e8b;
+	}
+	.introduccion-presentacion {
+		display: inline-block;
+		
+	}
+	.introduccion-presentacion h1 {
+		color: fff;
+		font-size: 42px;
+		text-shadow: 1px 1px 0px #090909;
+		text-align: center;
+		margin-top: 70px;
+		margin-bottom: 40px;
+		margin-left: 20px;
+		line-height: 0.7cm;
+	}
+	.introduccion-presentacion h1 span{
+		color: #fff;
+		font-size: 16px;
+		
+	}
+	a.aprender-mas{
+		font-size: 35px;
+		border: 1px solid #0d5c25;
+		padding: 30px 50px;
+		background: blue;
+		display: block;
+		text-align: center;
+		margin: 10px 40px 55px;
+		color: #fff;
+		text-decoration: none;
+		text-shadow: 1px 1px 0 #000;
+		border-radius: 10px;
+		background: linear-gradient(to top, #319b41, #21c653);
+		-pie-background: linear-gradient(to top, #319b41, #21c653);
+		box-shadow: 0 9px 0 0 #20732f, 0 0 25px 5px #fff; 
+	}
+	a.aprender-mas:hover{ 
+		background: linear-gradient(to top, #319b41, #42FF7B);
+		-pie-background: linear-gradient(to top, #319b41, #21c653);
+	}
+	.presentacion img{
+		float: right;
+		position: relative;
+		top: 20px;
+	}
+	.servicios{
+		background: #833EE5;
+		overflow: hidden;
+		position: relative;
+		
+	}
+	.carazo{
+		background: #2428DC;
+		overflow: hidden;
+		position: relative;
+		padding: 28px;
+		
+	}
+	.granada{
+		background: #EB8638;
+		overflow: hidden;
+		position: relative;
+		padding: 28px;
+		
+		
+	}
+
+	
+	</style>
+<link href="mainstyle.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<header class="encabezado">
+	<div class="contenedor">
+	<nav class="menubar" role="navigation">
+			<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#T2">Servicios</a></li>
+			<li><a href="#T3">Leon</a></li>
+			<li><a href="#T4">Granada</a></li>
+			<li><a href="#T5">Contacto</a></li>
+		</ul>
+	</nav>
+	<figure class="main">
+		<img src="images/principal_0002_layer 3.jpg" alt="cerronegro">
+		<figcaption>
+		  <h5>Siente la adrenalina de bajar del cerro negro en snowboarding</h5>
+		</figcaption>
+	</figure>
+	<h2 class="logotipo">NICA<span>TOUR</span> </h2>
+	</div>
+</header>	
+<div class="presentacion">
+	<div class="contenedor">
+	    <div class="introduccion-presentacion">
+		   <h1> DISENO DIGITAL 3 UCA <br> 
+			    <span> Empieza a codificar hermosos sitios web </span>
+			</h1>
+			<a href="#" class="aprender-mas"> aprender mas </a>
+		</div>
+		<img src="images/loading.gif" alt="cargando">
+	</div>
+	</div>
+
+<section class="servicios">
+   <div class="contenedor">
+	<h3 id="T2">SERVICIOS</h3>
+	<article  id="planea">
+		<div>
+		  <h4>
+				PLANEA TU EXPERIENCIA
+			</h4>
+			<p>Si usted está planeando para unas vacaciones familiares, viaje romántico o un viaje de último minuto, puede estar seguro de que cada paquete de viaje que usted encuentra en Schuvar Tours será inolvidable.</p>
+			<figure></figure>
+        <img src="images/planea.png" alt="planea"></div>
+	</article>
+	<article  id="viaja">
+	<div>
+		<h4>Realiza tu viaje</h4>
+		<p>Cualquier destino del mundo es posible para tus próximas vacaciones. Schuvar Tours te ofrece los mejores precios en paquetes vacacionales y a los mejores destinos. No esperes más y consulta ahora nuestra amplia oferta a los destinos internacionales más reconocidos</p>
+		<figure>
+		<img src="images/viaja.png" alt="planea">
+		</figure>
+	</div>
+	</article>
+	</div>	
+	
+</section>
+<section id="departamentos">
+  <div class="carazo">
+		<article>
+		<div id="carazo">
+		  <h3 id="T3">LEON</h3>
+			<p><img src="images/galleon_0003_layer 2.jpg" width="533" height="400" alt=""/>La capital departamental, la ciudad de León, es la segunda en importancia del país y una de las más majestuosas ciudades coloniales de todo centroamérica, pues fue una de las primeras ciudades que fundaron los españoles al llegar al continente.La ciudad de León, cuyo nombre original es Santiago de los Caballeros de León fue fundada el 19 de junio de 1524 por Francisco Hernández de Córdoba, cerca del poblado indígena de Imabite y en la orilla del volcán Momotombo. En el año 1610, debido a fuertes movimientos sísmicos y a una enorme erupción del volcán Momotombo la ciudad tubo que trasladarse la ciudad hacia su nueva ubicación, la actual, junto al pueblo indígena de sutiava. De la erupción del volcán Momotombo, que mató a gran parte de la población de la ciudad, queda el recuerdo de León Viejo, donde actualmente se pueden visitar las antiguas ruinas.Aunque con menos población que Managua, León ha sido la sede intelectual de la nación, con una universidad fundada en 1813, siendo la última fundada en América antes de la independencia y que fue la más importante de centroamérica por un siglo completo. León es también un importante centro industrial y de comercio de Nicaragua..</p>
+
+		</div>	
+	</article>
+
+</div>	
+  <div class="granada">
+   	<article>
+		<div id="granada">
+			<h3 id="T4">GRANADA</h3>
+			<p><img src="images/f186d25edfc2e5a52ecd7d079b15b3a4.jpg" width="640" height="400" alt=""/>El departamento de Granada está formado por los municipios de Diriá, Diromo, Nandaime y su cabecera, la Ciudad de Granada.En el departamento están también los llamados “pueblos blancos” que son muy interesantes de conocer, Diriomo y Diriá.Diriomo es conocido popularmente como “El pueblo de los Brujos” y es una localidad campesina asentada cerca de la base del  Volcán Mombacho. La Joya del lugar es el famoso templo parroquial construido con puras piedras trasladadas por los indígenas en la época de la colonización. En su interior se pueden admirar reliquias religiosas y frescos espectaculares en sus paredes.Nandaime, es el segundo municipio en importancia del departamento de Granada, el nombre es de origen Chorotega y viene de “nanda-ime” que significa “arroyo-abundancia”. además de tener parte de la orilla del lago Cocibolca, está situada cerca de tres Reservas Naturales importantes</p>
+		</div>	
+	</article>
+
+  </div>
+</section>
+<section>
+	<div>
+		<h3 id="T5">CONTACTO</h3>
+		<form action="../../Sites/nicatourridel/enviar formulario" method="post">
+			<ul>
+  				<li>
+    				<label for="name">Nombre:</label>
+    				<input type="text" id="name" name="user_name">
+  				</li>
+				<li>
+    				<label for="mail">Correo electrónico:</label>
+    				<input type="email" id="mail" name="user_mail">
+  				</li>	
+  				<li>
+    				<label for="msg">Mensaje:</label>
+    				<textarea id="msg" name="user_message"></textarea>
+  				</li>
+ 			</ul>	
+		</form>	
+	</div>
+</section>
+<footer>
+	<div>
+		<h4>NICATOUR</h4>
+		<h5>Somos la mejor empresa de asesorías turísticas con múltiples destinos en Centro y Sur América.
+		www.nicatour.com | info@nicatour.com
+		Tel: (505) 22783923 | Nicaragua</h5>
+	</div>
+</footer>
+</body>
+</html>
